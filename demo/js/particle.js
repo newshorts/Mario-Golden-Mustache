@@ -1,7 +1,6 @@
 // Super Simple Particle System
 // Eric Ishii Eckhardt for Adapted
 // http://adaptedstudio.com
-//
 
 
 var _r;

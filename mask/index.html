@@ -1,0 +1,48 @@
+<!-- 
+    Author: Mike Newell © 2012
+-->
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        (function($) {
+            var App = function() {
+                var c1,
+                    c2,
+                    ctx1,
+                    ctx2;
+                
+                this.init() = function() {
+                    c1 = document.getElementById('one');
+                    c2 = document.getElementById('two');
+                    
+                    ctx1 = c1.getContext('2d');
+                    ctx2 = c2.getContext('2d');
+                    
+                }
+                
+                
+                
+            }
+            
+            $(window).load(function() {
+                var a = new App();
+                a.init();
+            });
+        })(jQuery);
+    </script>
+  </head>
+  <body>
+      <div id="wrap">
+          <canvas id="one"></canvas>
+          <canvas id="two"></canvas>
+      </div>
+  </body>
+</html>

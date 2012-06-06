@@ -1,0 +1,34 @@
+/* 
+    Document   : style
+    Created on : Jun 6, 2012, 12:40:01 PM
+    Author     : mike_newell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.box {
+    width: 1600px;
+    height: 1064px;
+}
+
+#kid {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#canvasMustache {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
