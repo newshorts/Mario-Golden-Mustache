@@ -170,7 +170,7 @@ function particleLine(p) {
 
 
 /*
- *  Gold Values:
+ *  Gold Values: http://cloford.com/resources/colours/500col.htm
  *  
  *  255 193 37
  *  238 180 34
