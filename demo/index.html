@@ -1,0 +1,48 @@
+<!--
+Author: Mike Newell © 2012
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            <canvas id="canvas"></canvas>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/particle.js"></script>
+        <script src="js/library.js"></script>
+        <script>
+            (function($) {
+                $(window).load(function() {
+                    var App = function() {
+                        
+                        var _window = $(window),
+                            _document = $(document),
+                            _canvas = $('#canvas');
+                        
+                        this.init = function() {
+                            var ww = _window.width(),
+                                wh = _window.height();
+                            
+                            _canvas.attr({
+                                'width': ww,
+                                'height':wh
+                            });
+                        }
+                    };
+                    
+                    var a = new App();
+                    a.init();
+                    
+                    init();
+                    initParticleSystem();
+                    
+                    
+                });
+            })(jQuery);
+        </script>
+    </body>
+</html>
